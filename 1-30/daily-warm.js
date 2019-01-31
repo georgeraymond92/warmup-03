@@ -77,9 +77,6 @@ let sum = reduce(numbers, (acc,num) => {
 console.log({sum});
 
 
-
-
-
 const state = {people,stuff};
 let newPeople = ['Odie', ...people, 'Garfield'];
 const newStuff = {...stuff, cars:[...stuff.cars, 'GMC']};
