@@ -143,7 +143,6 @@ class Stack {
 }
 
 
-
 let stack = new Stack();
 stack.push(2);
 stack.push(4);
@@ -212,18 +211,12 @@ class LinkedList {
   }
 
 }
-
-
 let list = new LinkedList();
-
 list.insert(2);
 list.insert(4);
 list.insert(6);
 list.insert(8);
 list.insert(10);
-
-
-
 list.list();
 
 // ------------------------------------------------>
